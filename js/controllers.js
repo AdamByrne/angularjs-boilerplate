@@ -2,7 +2,7 @@
 
 myApp.controller("MyCtrl1" ,function ($scope, UtilSrvc) {
     $scope.aVariable = 'anExampleValueWithinScope';
-    $scope.valueFromService = UtilSrvc.helloWorld("Amy");
+    $scope.valueFromService = UtilSrvc.helloWorld("Adam");
 });
 
 myApp.controller("MyCtrl2" ,function ($scope) {
